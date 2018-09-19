@@ -2,7 +2,7 @@ module.exports = {
     title: '文档中心',
     description: 'Just playing around',
     port: '8888',
-    base: '/windole-dosc/',
+    base: '/windole-docs/',
     dest: 'docs/.vuepress/dist',
     markdown: {
         lineNumbers: true
