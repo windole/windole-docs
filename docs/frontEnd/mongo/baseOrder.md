@@ -28,7 +28,7 @@ db.user.update({"name":"windole"},{"name":"windole","age":"32"})
 1. 新建一个goTask.js文件。文件内容如下：
 
 ```js
-var userName="jspang";    //声明一个登录名
+var userName="windole";    //声明一个登录名
 var timeStamp=Date.parse(new Date());     //声明登录时的时间戳
 var jsonDdatabase={"loginUnser":userName,"loginTime":timeStamp}; //组成JSON字符串
 var db = connect('log');   //链接数据库

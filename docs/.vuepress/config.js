@@ -22,12 +22,40 @@ module.exports = {
         sidebar: {
             '/frontEnd': [
                 {
+                    title: 'css',
+                    collapsable: true,
+                    children: [
+                        'frontEnd/css/',
+                        'frontEnd/css/layout',
+                        'frontEnd/css/box'
+                    ]
+                },
+                {
+                    title: 'js',
+                    collapsable: true,
+                    children: [
+                        'frontEnd/js/',
+                        'frontEnd/js/dom',
+                    ]
+                },
+                {
                     title: 'mongo',
                     collapsable: true,
                     children: [
                         'frontEnd/mongo/',
                         'frontEnd/mongo/summary',
-                        'frontEnd/mongo/baseOrder'
+                        'frontEnd/mongo/baseOrder',
+                        'frontEnd/mongo/Schema',
+                        'frontEnd/mongo/Model',
+                        'frontEnd/mongo/customMethods',
+                        'frontEnd/mongo/documentAdd',
+                        'frontEnd/mongo/documentSearch',
+                        'frontEnd/mongo/documentUpdate',
+                        'frontEnd/mongo/documentDelete',
+                        'frontEnd/mongo/middleware',
+                        'frontEnd/mongo/postQuery',
+                        'frontEnd/mongo/documentValidation',
+                        'frontEnd/mongo/jointOperation'
                     ]
                 },
                 {
