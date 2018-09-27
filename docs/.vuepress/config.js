@@ -3,7 +3,7 @@ module.exports = {
     description: 'Just playing around',
     port: '8888',
     base: '/windole-docs/',
-    dest: 'docs/.vuepress/dist',
+    dest: './dist',
     markdown: {
         lineNumbers: true
     },

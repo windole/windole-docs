@@ -3,7 +3,7 @@
 set -e
 yarn build
 
-cd docs/.vuepress/dist
+cd dist
 
 git init
 git add -A
