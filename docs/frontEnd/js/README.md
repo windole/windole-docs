@@ -7,4 +7,5 @@
 包含的目录有：
 
 - [dom](./dom.md)
+- [apply()与call()](./apply()与call().md)
 
